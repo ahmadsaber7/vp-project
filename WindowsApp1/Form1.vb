@@ -31,6 +31,8 @@ Public Class Form1
         If reader.Read() Then
             Form3.Show()
             'Me.Close()
+            'Me.Close()
+
         Else
             MessageBox.Show("Invalid username or password.")
         End If
